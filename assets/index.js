@@ -11,11 +11,11 @@ function convert(){
         temp = Number(textbox.value).toFixed(1);
         let f = (temp * 9/5) + 32;
         if (f>103){
-				result.textContent = f+" °C🥵️";
+				result.textContent = f+" °F🥵️";
         }else if(f>82.4 && f<103){
-        		result.textContent = f+" °C😃️";
+        		result.textContent = f+" °F😃️";
         }else{
-        		result.textContent = f+" °C🥶️";
+        		result.textContent = f+" °F🥶️";
         }
     }
     else if(fahrenheit.checked){
